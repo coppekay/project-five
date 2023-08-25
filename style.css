@@ -1,0 +1,111 @@
+.menu-nav {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+.menu {
+  position: relative;
+  background-color: #7abb77;
+  min-height: 3em;
+  display: flex;
+  justify-content: flex-end;
+  background: rgb(30, 45, 30);
+  background: linear-gradient(0deg, rgb(30, 45, 30) 0%, rgb(136, 211, 132) 100%);
+}
+
+body {
+  background: rgb(3, 59, 68);
+  background: linear-gradient(180deg, rgb(3, 59, 68) 0%, rgb(159, 211, 201) 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+.logo {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+  animation: fade-up 1s;
+}
+
+.logo-design {
+  max-width: 350px;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hi {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.name {
+  font-size: 5em;
+  font-weight: 700;
+  text-underline-position: under;
+  text-decoration: underline;
+  text-shadow: 5px 5px rgba(3, 3, 3, 0.1843137255);
+  animation: fade-up 1s;
+}
+
+.dev {
+  padding-top: 1em;
+  font-size: large;
+  font-weight: 500;
+}
+
+.about-me-text {
+  text-align: center;
+  max-width: 50%;
+  margin: 4em auto;
+  padding: 3em;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 25px 25px;
+  border: groove 15px rgba(117, 186, 186, 0.3019607843);
+  background-color: rgba(102, 158, 157, 0.1725490196);
+  animation: fade-up 1s;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  animation: fade-up 1s;
+}
+
+.photo-1, .photo-2, .photo-3 {
+  animation-timing-function: ease-in 5s;
+  max-width: 400px;
+  border: 10px solid #000000;
+  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.photo-4 {
+  max-width: 453px;
+  border: 10px solid #000000;
+  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=style.css.map */
